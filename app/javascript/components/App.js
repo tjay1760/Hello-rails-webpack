@@ -5,10 +5,11 @@ const App = () => {
     return(
         <Router>
             <Routes>
-                <Route exact path="/" element={<RandomGreeting />} />
+                <Route exact path="/" element={<Greeting />} />
             </Routes>
         </Router>
     )
 }
+ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
